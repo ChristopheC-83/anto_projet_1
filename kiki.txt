@@ -32,3 +32,11 @@ symfony console doctrine:migration:migrate
 
 On récupère des données pas entity ou Repositoryrepo + rapide 
 on découpe code également
+
+
+
+Installation EasyAdmin
+composer require easycorp/easyadmin-bundle
+
+création tableau de bord
+symfony console make:admin:dashboard
