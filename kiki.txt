@@ -1,0 +1,10 @@
+pour lancer
+symfony serve -d (laisse le terminal dispo)
+symony server:start (bloque le terminal)
+
+on arrete avec 
+symfony server:stop
+
+
+créer controleur et vue
+symfony console make:controller nom_controller
