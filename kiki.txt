@@ -8,3 +8,27 @@ symfony server:stop
 
 créer controleur et vue
 symfony console make:controller nom_controller
+
+
+créer DB 
+on remplit
+DATABASE_URL="mysql://root:@127.0.0.1:3306/anto_projet_1"
+puis
+symfony console doctrine:database:create
+
+
+
+une entité est une table
+symfony console make:entity
+
+on donne un nom puis les noms des colonnes
+=> création d'une Entity et d'un Repository
+
+on crée la migration
+symfony console make:migration
+on la joue
+symfony console doctrine:migration:migrate
+
+
+On récupère des données pas entity ou Repositoryrepo + rapide 
+on découpe code également

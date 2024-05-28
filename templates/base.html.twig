@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			{% block title %}Welcome!
+			{% block title %}Formation Symfo 
 			{% endblock %}
 		</title>
 		{% block stylesheets %}{% endblock %}
@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
 		<link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+		<link href="{{ asset('assets/css/custom.css')}}" rel="stylesheet">
 
 
 		<meta name="theme-color" content="#712cf9">
@@ -107,7 +108,7 @@
 		</style>
 
 	</head>
-	<body>
+	<body class="d-flex flex-column min-vh-100">
 
 		<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
 			<symbol id="check2" viewbox="0 0 16 16">
@@ -175,20 +176,20 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-8 col-md-7 py-4">
-							<h4>About</h4>
-							<p class="text-body-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+							<h4>A propos</h4>
+							<p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque praesentium nobis beatae quidem eveniet magni, dolore amet repudiandae, fugit cum autem consectetur, explicabo molestias distinctio?.</p>
 						</div>
 						<div class="col-sm-4 offset-md-1 py-4">
 							<h4>Contact</h4>
 							<ul class="list-unstyled">
 								<li>
-									<a href="#" class="text-white">Follow on Twitter</a>
+									<a href="https://x.com/83ChristopheC" class="text-white">Retrouvez moi sur X</a>
 								</li>
 								<li>
-									<a href="#" class="text-white">Like on Facebook</a>
+									<a href="https://www.linkedin.com/in/christophe-chiappetta-b3623b262/" class="text-white">Suivez moi sur LinkedIn</a>
 								</li>
 								<li>
-									<a href="#" class="text-white">Email me</a>
+									<a href="https://codepen.io/ChristopheC-83" class="text-white">Voir mon CodePen</a>
 								</li>
 							</ul>
 						</div>
@@ -198,8 +199,7 @@
 			<div class="navbar navbar-dark bg-dark shadow-sm">
 				<div class="container">
 					<a href="#" class="navbar-brand d-flex align-items-center">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewbox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-						<strong>Album</strong>
+						<strong>Site Formation</strong>
 					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -209,20 +209,16 @@
 		</header>
 
 
-		<main>
+		<main class="flex-grow-1 container">
 			{% block body %}{% endblock %}
 		</main>
 
 		<footer class="text-body-secondary py-5">
 			<div class="container">
 				<p class="float-end mb-1">
-					<a href="#">Back to top</a>
+					<a href="#">Retour</a>
 				</p>
-				<p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-				<p class="mb-0">New to Bootstrap?
-					<a href="/">Visit the homepage</a>
-					or read our
-					<a href="/docs/5.3/getting-started/introduction/">getting started guide</a>.</p>
+				<p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestias totam soluta id tenetur non quis ipsam accusamus quasi ea?</p>
 			</div>
 		</footer>
 		<script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}"></script>
