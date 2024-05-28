@@ -21,6 +21,10 @@ symfony console doctrine:database:create
 une entité est une table
 symfony console make:entity
 
+Pour les utilisateurs, c'est particulier...
+symfony console make:user
+
+
 on donne un nom puis les noms des colonnes
 => création d'une Entity et d'un Repository
 
@@ -33,6 +37,9 @@ symfony console doctrine:migration:migrate
 On récupère des données pas entity ou Repositoryrepo + rapide 
 on découpe code également
 
+Création formulaire
+symfony console make:form
+
 
 
 Installation EasyAdmin
@@ -40,3 +47,8 @@ composer require easycorp/easyadmin-bundle
 
 création tableau de bord
 symfony console make:admin:dashboard
+
+un crud dans l'ea 
+symfony console make:admin:crud
+
+
